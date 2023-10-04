@@ -1,0 +1,199 @@
+/* Google Fonts | Omonjon */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+
+
+/* Bootstrap tools | Omonjon */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --title-color: #313131;
+    --title-color-after: rgb(20, 82, 159);
+    --text-color: #000000;
+    --text-color-light: #737387;
+    --color-gray: #F1F2F4;
+    --primary-transition: 0.37s;
+    --body-font: 'Roboto';
+}
+
+body {
+    font-family: var(--body-font);
+    font-weight: 400;
+    font-size: 1rem;
+}
+
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+    padding-right: 0;
+    padding-left: 0;
+    padding-bottom: 0;
+    padding-top: 0;
+}
+
+.accordion-button::after {
+    display: none;
+}
+
+button[aria-expanded^="true"] i {
+    background-color: var(--bs-primary) !important;
+    transform: rotate(-180deg) !important;
+    color: black !important;
+    box-shadow: 0px 8px 18px -8px rgba(116, 246, 0, 0.90);
+}
+
+.btn-primary {
+    color: var(--bs-black);
+    background: var(--bs-primary);
+}
+
+.box-shadow-none {
+    box-shadow: none !important;
+}
+
+.bg-gray {
+    background: #F5F5F6;
+}
+
+.primary-shadow {
+    box-shadow: 0px 8px 18px -8px rgba(116, 246, 0, 0.90);
+}
+
+.bg-gray-light {
+    background-color: #1c2029 !important;
+}
+
+.btn-secondary {
+    border-radius: 2px;
+    color: var(--bs-primary);
+    border: 1px solid var(--bs-primary);
+    background: transparent;
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+.z-index-1 {
+    z-index: 1;
+}
+
+.z-index-2 {
+    z-index: 2;
+}
+
+.z-index-3 {
+    z-index: 3;
+}
+
+.z-index-4 {
+    z-index: 4;
+}
+
+.z-index-5 {
+    z-index: 5;
+}
+
+.z-index-6 {
+    z-index: 6;
+}
+
+.z-index-7 {
+    z-index: 7;
+}
+
+.z-index-8 {
+    z-index: 8;
+}
+
+.z-index-9 {
+    z-index: 9;
+}
+
+.z-index-10 {
+    z-index: 10;
+}
+
+.fs-6 {
+    font-size: 1.25rem !important;
+}
+
+.fs-7 {
+    font-size: 1rem !important;
+}
+
+.fs-8 {
+    font-size: 0.875rem !important;
+}
+
+.fs-9 {
+    font-size: 0.75rem !important;
+}
+
+.w-max-content {
+    width: max-content !important;
+}
+
+.opacity-7 {
+    opacity: 0.7;
+}
+
+.outline-none {
+    outline: none;
+}
+
+.transition {
+    transition: .4s;
+}
+
+input,
+button {
+    outline: none;
+}
+
+.border-none {
+    border: none;
+}
+
+.primary-hover:hover {
+    color: var(--bs-primary) !important;
+}
+
+li,
+ul,
+ol {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+p {
+    padding: 0;
+    margin: 0;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+    -moz-appearance: textfield;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Self classes */
+body{
+    background: url("../images/bg-1.png") no-repeat center/cover;
+}

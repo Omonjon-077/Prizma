@@ -1,0 +1,25 @@
+@media (max-width: 768px) {
+    .fs-1{
+        font-size: 28px!important;
+    }
+
+    .fs-6{
+        font-size: 15px !important;
+    }
+
+    .fs-4 {
+        font-size: 20px !important;
+    }
+}
+
+@media (min-width: 576px) {
+    .w-50{
+        width: 50% !important;
+    }
+}
+
+@media (max-width: 575px) {
+    .w-50{
+        width: 100% !important;
+    }
+}
