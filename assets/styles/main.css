@@ -1,5 +1,28 @@
-/* Google Fonts | Omonjon */
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+/* Fonts | Omonjon */
+@font-face {
+    font-family: 'Actay';
+    src:  url('../fonts/Actay-Regular.otf');
+    src:  url('../fonts/Actay-RegularItalic.otf');
+    src:  url('../fonts/ActayCondensed-Thin.otf');
+    src:  url('../fonts/ActayCondensed-ThinItalic.otf');
+    src:  url('../fonts/ActayWide-Bold.otf');
+    src:  url('../fonts/ActayWide-BoldItalic.otf');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+
+@font-face {
+    font-family: 'Muller';
+    src:  url('../fonts/Muller-ExtraBold-DEMO.otf');
+    src:  url('../fonts/Muller-ExtraBold-DEMO.ttf');
+    src:  url('../fonts/Muller-Thin-DEMO.otf');
+    src:  url('../fonts/Muller-Thin-DEMO.ttf');
+    src:  url('../fonts/Muller Regular.ttf');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
 
 
 /* Bootstrap tools | Omonjon */
@@ -16,7 +39,16 @@
     --text-color-light: #737387;
     --color-gray: #F1F2F4;
     --primary-transition: 0.37s;
-    --body-font: 'Roboto';
+    --body-font: 'Muller';
+    --body-font2: 'Actay';
+}
+
+.body-font{
+    font-family: 'Muller', sans-serif;
+}
+
+.body-font2 {
+    font-family: 'Actay', sans-serif;
 }
 
 body {
