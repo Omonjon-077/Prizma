@@ -25,7 +25,7 @@
 
 <!--================ INFO MODAL | Omonjon ================-->
 
-<div class="d-block modal-info" id="modal-info">
+<div class="modal-info transition"  id="modal-info">
     <div class="d-flex flex-column bg-white justify-content-center align-items-center row-gap-3 p-lg-5 p-4">
         <h5 class="fs-4 fw-bold text-center" style="color: #19294F;">Ma'lumotlaringiz <br> qabul qilindi</h5>
         <p class="fs-7 text-bolder text-center text-gray">. Siz bilan tez kunda sotuv <br> menejeri bog'lanadi</p>
@@ -63,11 +63,11 @@ backdrop-filter: blur(7.5px);">
                style="max-width: 419px; width: 100%;">Maxsus takliflar va boshqa
                 ma’lumotlarga ega bo’lish uchun raqamingizni qoldiring</p>
             <form action="" id="contact-form">
-                <input required type="text" id="contact-name"
+                <input required autocomplete="off" type="text" id="contact-name"
                        class="py-2 px-2 w-100 bg-transparent outline-none text-white fs-5 ms-xxl-5 ms-xl-4 ms-lg-3 mb-3"
                        style="max-width: 350px; width: 100%;border: none; border-bottom: 1px solid rgba(255, 255, 255, 0.10);"
                        placeholder="Ismingiz">
-                <input required type="number" id="contact-phone"
+                <input required type="text" autocomplete="off" id="contact-phone" maxlength="19" value="+998"
                        class="py-2 px-2 w-100 bg-transparent outline-none text-white fs-5 ms-xxl-5 ms-xl-4 ms-lg-3 mb-2"
                        style="max-width: 350px; width: 100%;border: none; border-bottom: 1px solid rgba(255, 255, 255, 0.10);"
                        placeholder="Telefon raqamingiz">
@@ -87,8 +87,8 @@ backdrop-filter: blur(7.5px);">
 <!--================ BOOTSTRAP JS 5.3.1v | Omonjon ================-->
 <script src="assets/script/bootstrap.bundle.min.js"></script>
 
-<!--================ EMAIL JS 3.3.1v | Omonjon ================-->
-
+<!--================ IMASK JS 3.3.1v | Omonjon ================-->
+<script src="https://unpkg.com/imask"></script>
 
 <!--================ MAIN JS | Omonjon ================-->
 <script src="assets/script/main.js?v=0.0.1"></script>

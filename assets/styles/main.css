@@ -1,12 +1,12 @@
 /* Fonts | Omonjon */
 @font-face {
     font-family: 'Actay';
-    src:  url('../fonts/Actay-Regular.otf');
-    src:  url('../fonts/Actay-RegularItalic.otf');
-    src:  url('../fonts/ActayCondensed-Thin.otf');
-    src:  url('../fonts/ActayCondensed-ThinItalic.otf');
-    src:  url('../fonts/ActayWide-Bold.otf');
-    src:  url('../fonts/ActayWide-BoldItalic.otf');
+    src: url('../fonts/Actay-Regular.otf');
+    src: url('../fonts/Actay-RegularItalic.otf');
+    src: url('../fonts/ActayCondensed-Thin.otf');
+    src: url('../fonts/ActayCondensed-ThinItalic.otf');
+    src: url('../fonts/ActayWide-Bold.otf');
+    src: url('../fonts/ActayWide-BoldItalic.otf');
     font-weight: normal;
     font-style: normal;
     font-display: block;
@@ -14,11 +14,11 @@
 
 @font-face {
     font-family: 'Muller';
-    src:  url('../fonts/Muller-ExtraBold-DEMO.otf');
-    src:  url('../fonts/Muller-ExtraBold-DEMO.ttf');
-    src:  url('../fonts/Muller-Thin-DEMO.otf');
-    src:  url('../fonts/Muller-Thin-DEMO.ttf');
-    src:  url('../fonts/Muller Regular.ttf');
+    src: url('../fonts/Muller-ExtraBold-DEMO.otf');
+    src: url('../fonts/Muller-ExtraBold-DEMO.ttf');
+    src: url('../fonts/Muller-Thin-DEMO.otf');
+    src: url('../fonts/Muller-Thin-DEMO.ttf');
+    src: url('../fonts/Muller Regular.ttf');
     font-weight: normal;
     font-style: normal;
     font-display: block;
@@ -43,7 +43,7 @@
     --body-font2: 'Actay';
 }
 
-.body-font{
+.body-font {
     font-family: 'Muller', sans-serif;
 }
 
@@ -107,7 +107,7 @@ button[aria-expanded^="true"] i {
     background: transparent;
 }
 
-.text-gray{
+.text-gray {
     color: #4D4D4D !important;
 }
 
@@ -230,13 +230,25 @@ a {
 }
 
 /* Self classes */
-body{
+body {
     background: url("../images/bg-1.png") no-repeat center/cover;
 }
 
-.modal-info{
-    position: relative;
+.modal-info {
+    position: fixed;
+    right: 0;
+    z-index: 5;
+    bottom: 0;
+    margin: 0 auto;
+    top: -200%;
+    left: 0;
     display: flex;
     align-items: center;
     justify-items: center;
+    max-width: 450px;
+    width: 100%;
+}
+
+.show-modal {
+    top: 0;
 }
