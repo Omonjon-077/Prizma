@@ -242,7 +242,7 @@ body {
     margin: 0 auto;
     top: -200%;
     left: 0;
-    display: flex;
+    display: none;
     align-items: center;
     justify-items: center;
     max-width: 450px;
@@ -251,4 +251,5 @@ body {
 
 .show-modal {
     top: 0;
+    display: flex;
 }
