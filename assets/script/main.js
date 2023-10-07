@@ -13,7 +13,7 @@ const mask = IMask(contactPhone, maskOptions);
 // FOR SEND BOT
 let bot = {
     TOKEN: "5894687462:AAFNdK9xm8LFIsSxiq9BL951WwznTfxVVX0",
-    chatID: "-4016506469",
+    chatID: "-1001929317912",
 }
 
 form.addEventListener("submit", (e) => {
