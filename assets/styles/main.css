@@ -107,6 +107,10 @@ button[aria-expanded^="true"] i {
     background: transparent;
 }
 
+.text-gray{
+    color: #4D4D4D !important;
+}
+
 .cursor-pointer {
     cursor: pointer;
 }
@@ -228,4 +232,11 @@ a {
 /* Self classes */
 body{
     background: url("../images/bg-1.png") no-repeat center/cover;
+}
+
+.modal-info{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-items: center;
 }

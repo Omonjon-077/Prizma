@@ -22,22 +22,36 @@
     <title>Prizma Devolepment</title>
 </head>
 <body>
+
+<!--================ INFO MODAL | Omonjon ================-->
+
+<div class="d-block modal-info" id="modal-info">
+    <div class="d-flex flex-column bg-white justify-content-center align-items-center row-gap-3 p-lg-5 p-4">
+        <h5 class="fs-4 fw-bold text-center" style="color: #19294F;">Ma'lumotlaringiz <br> qabul qilindi</h5>
+        <p class="fs-7 text-bolder text-center text-gray">. Siz bilan tez kunda sotuv <br> menejeri bog'lanadi</p>
+        <button type="button" class="btn-primary border-0 outline-none box-shadow-none text-black py-2 px-5" id="modal-btn">Oynani yopish</button>
+    </div>
+</div>
+
 <div class="d-flex flex-column flex-sm-row" style="overflow-y: hidden">
     <div class="w-50 p-5" style=" background: #19294FBF;">
         <div class="d-flex flex-column align-items-center align-items-sm-start p-xl-5 pb-xxl-5 pb-xl-4 pb-2">
-            <a href="#!" class="mb-xxl-5 pb-xxl-5 mb-xl-5 pb-xl-3 mb-5 ps-0 ps-xxl-5 ps-xl-4 ps-lg-3"><img class="w-100" src="./assets/images/site-logo.svg"
-                                                                              alt=""></a>
+            <a href="#!" class="mb-xxl-5 pb-xxl-5 mb-xl-5 pb-xl-3 mb-5 ps-0 ps-xxl-5 ps-xl-4 ps-lg-3"><img class="w-100"
+                                                                                                           src="./assets/images/site-logo.svg"
+                                                                                                           alt=""></a>
             <h4 class="fs-1 text-white text-bold ps-0 text-center text-sm-start ps-xxl-5 ps-xl-4 ps-lg-3 mt-xxl-5 pt-xl-2 fw-bold text-uppercase">
                 Zamonaviy va ishonchli <br><span
                     class="fs-1  text-bold text-primary">uylar binokori</span></h4>
-            <p class="text-white fw-normal text-center text-sm-start fs-6 ps-0 ps-xxl-5 ps-xl-4 ps-lg-3 mt-4 mb-xl-5 pb-xl-5 mb-5">Biz Sizning barcha
+            <p class="text-white fw-normal text-center text-sm-start fs-6 ps-0 ps-xxl-5 ps-xl-4 ps-lg-3 mt-4 mb-xl-5 pb-xl-5 mb-5">
+                Biz Sizning barcha
                 talablaringizga mos keluvchi
                 turar-joy qurish
                 jarayonidamiz. Tez kunda saytimiz orqali barcha qo’shimcha ma’lumotlarga ega bo’lishingiz mumkin </p>
             <p class="d-flex align-items-center pt-xxl-5 mt-xxl-4 pt-lg-3 pt-xl-2 pt-md-5 pt-sm-5 ps-0 ps-xxl-5 ps-xl-4 ps-lg-3 column-gap-2 text-primary fs-6 fw-normal">
                 <img
                         src="./assets/images/phone-call.svg" alt=""> Aloqa markazi raqami</p>
-            <a href="tel:555152222" class="fs-1 ps-0 ps-xxl-5 ps-xl-4 ps-lg-3 text-white fw-bold text-uppercase mt-2 pb-3 pb-sm-0">55
+            <a href="tel:555152222"
+               class="fs-1 ps-0 ps-xxl-5 ps-xl-4 ps-lg-3 text-white fw-bold text-uppercase mt-2 pb-3 pb-sm-0">55
                 515 22 22</a>
         </div>
     </div>
@@ -48,22 +62,23 @@ backdrop-filter: blur(7.5px);">
             <p class="text-white fw-bolder fs-4 ps-0 text-center text-sm-start ps-xxl-5 ps-xl-4 ps-lg-3 mt-4 mb-5"
                style="max-width: 419px; width: 100%;">Maxsus takliflar va boshqa
                 ma’lumotlarga ega bo’lish uchun raqamingizni qoldiring</p>
-            <form action="" method="">
-                <input type="text" required
+            <form action="" id="contact-form">
+                <input required type="text" id="contact-name"
                        class="py-2 px-2 w-100 bg-transparent outline-none text-white fs-5 ms-xxl-5 ms-xl-4 ms-lg-3 mb-3"
                        style="max-width: 350px; width: 100%;border: none; border-bottom: 1px solid rgba(255, 255, 255, 0.10);"
                        placeholder="Ismingiz">
-                <input type="number" required
+                <input required type="number" id="contact-phone"
                        class="py-2 px-2 w-100 bg-transparent outline-none text-white fs-5 ms-xxl-5 ms-xl-4 ms-lg-3 mb-2"
                        style="max-width: 350px; width: 100%;border: none; border-bottom: 1px solid rgba(255, 255, 255, 0.10);"
                        placeholder="Telefon raqamingiz">
-                <button type="submit" class="btn-primary fs-7 py-2 ms-xxl-5 ms-xl-4 ms-lg-3 mt-5 border-0 outline-none"
+                <button id="contact-btn" type="submit"
+                        class="btn-primary fs-7 py-2 ms-xxl-5 ms-xl-4 ms-lg-3 mt-5 border-0 outline-none"
                         style="max-width: 350px; width: 100%;">Xabardor bo’lish
                 </button>
-                <div class="position-absolute d-none d-xl-block" style="bottom: -44px; right: 70px;">
-                    <img src="assets/images/logo-bottom.png" alt="">
-                </div>
             </form>
+            <div class="position-absolute d-none d-xl-block" style="bottom: -44px; right: 70px;">
+                <img src="assets/images/logo-bottom.png" alt="">
+            </div>
         </div>
     </div>
 </div>
@@ -71,6 +86,9 @@ backdrop-filter: blur(7.5px);">
 
 <!--================ BOOTSTRAP JS 5.3.1v | Omonjon ================-->
 <script src="assets/script/bootstrap.bundle.min.js"></script>
+
+<!--================ EMAIL JS 3.3.1v | Omonjon ================-->
+
 
 <!--================ MAIN JS | Omonjon ================-->
 <script src="assets/script/main.js?v=0.0.1"></script>
