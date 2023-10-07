@@ -234,23 +234,24 @@ body {
     background: url("../images/bg-1.png") no-repeat center/cover;
 }
 
-/*.show-modal {*/
 
 .modal-info {
     position: fixed;
     right: 0;
     left: 0;
+    top: -200%;
     bottom: 0;
-    top: 0;
     z-index: 5;
     margin: 0 auto;
     padding: 0 20px;
-    display: flex;
+    display: none;
     align-items: center;
     justify-items: center;
     max-width: 350px;
     width: 100%;
 }
-/*    top: 0;*/
-/*    display: flex;*/
-/*}*/
+
+.show-modal {
+    top: 0;
+    display: flex;
+}
