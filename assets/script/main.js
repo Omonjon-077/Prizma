@@ -29,9 +29,6 @@ form.addEventListener("submit", (e) => {
     })
         .then(success => {
             modal.classList.add("show-modal");
-            setTimeout(() => {
-                modal.classList.remove("show-modal");
-            }, 5000)
             contactName.value = "";
             contactPhone.value = "";
             modalBtn.addEventListener("click", () => {
